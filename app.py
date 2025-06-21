@@ -14,7 +14,7 @@ n = st.number_input("Enter an integer", value=1, step=1)
 
 square = n** 2
 
-cube = n* 3
+cube = n** 3
 
 fifth_power = n ** 5
 
