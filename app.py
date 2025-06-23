@@ -27,3 +27,8 @@ st.write(f"The square of (n) is: {(square)}")
 st.write(f"The cube of (n) is: {(cube)}")
 
 st.write(f"The fifth power of (n) is: {fifth_power}")
+
+# Add a button to clear the input
+if st.button("Clear Input"):
+    n = 1
+    st.experimental_rerun()  # Rerun the app to reset the input

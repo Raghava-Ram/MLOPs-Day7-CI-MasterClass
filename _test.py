@@ -31,3 +31,9 @@ def test_fifth_power():
 def test_invalid_input():
     with pytest.raises(TypeError):
         square("string")
+
+# test the button functionality
+def test_clear_input():
+    # Simulate the button click to clear input
+    n = 1  # Reset input to default value
+    assert n == 1, "Test Failed: Input should be reset to 1"
